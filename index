@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt8"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="UTF-8" />
+        <title>Repositórios - GIT</title>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Busca das issus <span>Retorno closure</span></h1>
+				<nav class="codrops-demos">
+					<span>Retorno usando <strong>"prototype"</strong></span>
+					<a href="index3.html">Retorno Prototype</a>
+				</nav>
+            </header>
+            <section>				
+                <div id="container_demo" >
+                    <div id="wrapper">
+                        <div id="login">
+                            <form   autocomplete="on">
+                                <h1>Usuário GIT</h1>
+                                <p> 
+                                    <label for="username" class="uname" data-icon="u" > Informe seu usuário </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="Informe o usuário GIT"/>
+                                </p>
+                                <p>
+                                    <label for="usernamesignup" class="uname" data-icon="u">Repositório</label>
+                                    <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="Informe o repositório" />
+                                </p>
+                                <p class="login button">
+                                    <input type="submit" value="Buscar" />
+								</p>
+
+                                <h1> Resultado da busca </h1>
+                                <table>
+                                    <tr>
+                                        <th>Número</th>
+                                        <th>Título</th>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="alt">
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+						
+                    </div>
+                </div>  
+            </section>
+        </div>
+    </body>
+</html>
